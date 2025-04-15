@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+/* Theme colors */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --nav-hover: #1e40af; /* Tailwind blue-800 */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --nav-hover: #3b82f6; /* lighter blue for dark mode */
+  }
+}
+
+/* General page styling */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav link base */
+.nav__link {
+  color: white;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Hover underline only */
+.nav__link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: var(--nav-hover);
+  transition: width 0.3s ease-in-out;
+}
+
+/* Grow the line on hover */
+.nav__link:hover::after {
+  width: 100%;
+}
+
+/* Active link (always shows underline) */
+.nav__link--active::after {
+  width: 100%;
+  background-color: var(--nav-hover);
+}
+
+/* Custom text background gradient */
+.text-bg {
+  background-image:  linear-gradient(to right, #8750f7 0%, #ffffff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar{
+width: 10px;
+height: 10px
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+background: #44028f;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #c277fa;
+  border-radius: 4px;
+}
