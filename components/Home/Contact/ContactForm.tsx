@@ -1,6 +1,6 @@
 import React from "react";
 const ContactForm = () => {
-  return  <div className="bg-[#140c1c] rounded-lg p-4 sm:p-10">
+  return  <div className="bg-[#0F1A38] rounded-lg p-4 sm:p-10">
       <h1 className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold">Work with us!</h1>
       <p className="text-gray-200 mt-3 text-xs md:text-sm lg:text-base">
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -67,7 +67,7 @@ const ContactForm = () => {
         <div>
           <button
             type="submit"
-            className="px-8 py-3.5 bg-[#7947df] text-white hover:bg-[#5c2fb7] transition-all duration-150 rounded-full"
+            className="px-8 py-3.5 bg-[#283fa7] text-white hover:bg-[#375bd3] hover:brightness-110 transition-all duration-150 rounded-full"
           >
             Send Message
           </button>

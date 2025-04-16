@@ -33,7 +33,7 @@ return () => {
 },[]);
 
   return (
-    <div className={`fixed ${navBg ? "bg-[#240b39]" : "fixed"
+    <div className={`fixed ${navBg ? "bg-[#1D2A55]" : "fixed"
 
     } h-[12vh] z-[10]  w-full transition-all duration-200` }>
 

@@ -57,7 +57,7 @@ body {
 
 /* Custom text background gradient */
 .text-bg {
-  background-image:  linear-gradient(to right, #8750f7 0%, #ffffff 100%);
+  background-image:  linear-gradient(to right, #4F7CF7 0%, #ffffff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -69,10 +69,10 @@ height: 10px
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-background: #44028f;
+background: #3A5A96;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: #c277fa;
+  background: #4a90e2;
   border-radius: 4px;
 }
