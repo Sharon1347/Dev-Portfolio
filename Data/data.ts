@@ -9,7 +9,7 @@ export const BaseInfo = {
   export const aboutInfo = {
     title: "Turning concepts into code beautifully and brilliantly.",
     description:
-      "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+      "I’m a passionate web developer and designer dedicated to crafting secure, tailored digital experiences that engage users and drive measurable results. By combining creativity, technical expertise, and a strong foundation in web security best practices, I transform ideas into high-performing, responsive websites and custom applications. From enhancing user interfaces to ensuring robust security measures, I’m committed to delivering solutions that not only meet expectations—but consistently exceed them.",
     client: "50+",
     experience: "3+",
     project: "200+",
@@ -131,19 +131,19 @@ export const BaseInfo = {
       id: 3,
       title: "JavaScript",
       image: "/images/js.svg",
-      percent: "77%",
+      percent: "90%",
     },
     {
       id: 4,
       title: "TypeScript",
       image: "/images/ts.svg",
-      percent: "67%",
+      percent: "88%",
     },
     {
       id: 5,
       title: "HTML",
       image: "/images/html.svg",
-      percent: "67%",
+      percent: "95%",
     },
     {
       id: 6,
@@ -155,13 +155,13 @@ export const BaseInfo = {
       id: 7,
       title: "MongoDB",
       image: "/images/mongo.svg",
-      percent: "65%",
+      percent: "75%",
     },
     {
       id: 8,
       title: "Python",
       image: "/images/python.svg",
-      percent: "55%",
+      percent: "80%",
     },
     {
       id: 9,
@@ -173,7 +173,7 @@ export const BaseInfo = {
       id: 10,
       title: "Vue",
       image: "/images/vue.svg",
-      percent: "35%",
+      percent: "50%",
     },
   ];
   
