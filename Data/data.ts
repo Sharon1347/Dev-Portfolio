@@ -187,7 +187,7 @@ export const BaseInfo = {
       image: "/images/u1.jpg",
     },
     {
-      name: "Jane Smith",
+      name: "Wayne Bullard",
       review:
         "Highly skilled developers who understand the client's vision and execute perfectly.",
       rating: 4.8,
